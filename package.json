@@ -4,6 +4,8 @@
   "description": "Just a portfolio",
   "main": "index.html",
   "scripts": {
+    "start":"npm run server",
+    "server":"lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/rjharishabh/rjharishabh.github.io#readme",
   "devDependencies": {
+    "bootstrap": "^5.0.2",
     "lite-server": "^2.6.1"
   }
 }
